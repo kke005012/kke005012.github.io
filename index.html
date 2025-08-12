@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kristi Esta — Portfolio</title>
+  <meta name="description" content="Kristi Esta — Staff Data & AI Engineer. Building clean data pipelines and practical ML products." />
+  <meta property="og:title" content="Kristi Esta — Portfolio" />
+  <meta property="og:description" content="Staff Data & AI Engineer. DataCleanPro, RAG clinical QA, forecasting, and more." />
+  <meta property="og:type" content="website" />
+  <style> body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; margin: 0; } </style>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a href="#home" class="brand">Kristi&nbsp;Esta</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="resume.pdf" class="btn small" target="_blank" rel="noopener">Resume</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home" class="hero">
+    <div class="container">
+      <h1>Staff Data &amp; AI Engineer</h1>
+      <p class="tagline">I build reliable data systems and pragmatic ML — from data cleaning to RAG and forecasting.</p>
+      <div class="cta">
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn outline" href="#contact">Get in Touch</a>
+      </div>
+    </div>
+  </main>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About</h2>
+      <p>
+        I'm Kristi Esta — a software &amp; data engineer with 20+ years across backend, data platforms, and applied ML.
+        I’m currently building <strong>DataCleanPro</strong>, a cloud CSV cleaning tool with automated normalization, logging, and receipts.
+        I enjoy shipping practical AI systems (RAG, forecasting) with clear, measurable outcomes.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>DataCleanPro</h3>
+          <p>Cloud-based CSV cleaner: missing-value handling, currency/date normalization, dedupe, Stripe payments, and Gmail receipts.</p>
+          <ul class="tags">
+            <li>Python</li><li>Streamlit</li><li>Stripe</li><li>Gmail SMTP</li>
+          </ul>
+          <div class="links">
+            <a href="https://datacleanpro.com" target="_blank" rel="noopener">Live</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Merck Manual RAG QA</h3>
+          <p>Clinical question answering using RAG with careful chunking, retriever tuning, and groundedness/relevance evaluation.</p>
+          <ul class="tags">
+            <li>Python</li><li>RAG</li><li>Vector DB</li>
+          </ul>
+          <div class="links">
+            <!-- Replace '#' with your repo link when ready -->
+            <a href="#" title="Add repo link when ready">Repo</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Visa Approval Prediction</h3>
+          <p>EDA, sampling (over/under), model tuning, and insights to predict approval outcomes and drivers.</p>
+          <ul class="tags">
+            <li>Python</li><li>scikit-learn</li><li>EDA</li>
+          </ul>
+          <div class="links">
+            <!-- Replace '#' with your repo link when ready -->
+            <a href="#" title="Add repo link when ready">Repo</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>ReneWind</h3>
+          <p>Neural-network modeling and preprocessing on energy data for forecasting and patterns.</p>
+          <ul class="tags">
+            <li>Python</li><li>Pandas</li><li>NN</li>
+          </ul>
+          <div class="links">
+            <!-- Replace '#' with your repo link when ready -->
+            <a href="#" title="Add repo link when ready">Repo</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>Python</span><span>Pandas</span><span>scikit-learn</span><span>PyTorch</span>
+        <span>Streamlit</span><span>Stripe</span><span>GCP Sheets API</span><span>Cloudflare</span>
+        <span>SQL</span><span>Data Modeling</span><span>RAG</span><span>Vector DBs</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Best way to reach me is email. I’m also on LinkedIn and GitHub.</p>
+      <p class="contact-links">
+        <a class="btn" href="mailto:kristi.esta@gmail.com">Email Me</a>
+        <a class="btn outline" href="https://www.linkedin.com/in/kristiesta" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn outline" href="https://github.com/kristiesta" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Kristi Esta</p>
+    </div>
+  </footer>
+
+  <script> document.getElementById('year').textContent = new Date().getFullYear(); </script>
+</body>
+</html>
