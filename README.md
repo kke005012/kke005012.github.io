@@ -5,12 +5,12 @@ Static, zero-build portfolio (HTML + CSS).
 
 ## Deploy on GitHub Pages
 
-1. Create a repository named `kristiesta.github.io` (or your GitHub username + `.github.io`).
+1. Create a repository in github (your GitHub username + `.github.io`).
 2. Upload `index.html` and `styles.css` to the repository root.
 3. Wait ~1–2 minutes for Pages to publish, then visit `https://<your-username>.github.io`.
 
 ### Custom Domain (optional)
-- In repo Settings → Pages → Custom domain → enter e.g., `kristiesta.com`.
+- In repo Settings → Pages → Custom domain.
 - Set DNS per GitHub docs (CNAME to `<user>.github.io`).
 
 ## Customize
